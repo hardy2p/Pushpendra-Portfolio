@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # My Portfolio
 
 This project is a modern and customizable portfolio template built using React, Express, and Tailwind CSS. It serves as a starting point for developers to showcase their projects, experience, and skills in a sleek and responsive design.
@@ -100,3 +101,6 @@ Contributions are welcome! Follow these steps:
 
 This project is licensed under the MIT License.
 
+=======
+# Pushpendra-Portfolio
+>>>>>>> 2fafe911d1452def11a37cda6f0f4493b5d3f67c
