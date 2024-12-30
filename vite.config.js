@@ -17,5 +17,5 @@ export default defineConfig({
       "@": "/src", // Optional: Simplify imports with an alias
     },
   },
-  base: "./", // Ensures correct base path for relative links
+  base: "./Pushpendra-Portfolio", // Ensures correct base path for relative links
 });
