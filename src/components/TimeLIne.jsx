@@ -5,17 +5,17 @@ const TimeLine = ({ darkMode, bg }) => {
 
   const educationData = [
     {
-      degree: "B.Tech in Electrical and Electronics Engineering",
-      institution: "B.P Mandal College of Engineering, Madhepura (Bihar)",
-      date: "2019 - 2023",
-      marks: "8.04 CGPA",
+      degree: "B.E. in Computer Science and Engineering",
+      institution: "Chandigarh University Mohali",
+      date: "2021 - 2025",
+      marks: "8.2 CGPA",
       details:
-        "Gained a strong understanding of electrical and electronics engineering principles, including circuit design, control systems, and embedded systems. Participated in projects and practical labs to apply theoretical knowledge. Developed problem-solving and teamwork skills through collaborative assignments.",
+        "Gained a solid foundation in computer science principles, including data structures, algorithms, and software development. Ranked in the top 20% on LeetCode, showcasing strong problem-solving skills and expertise in competitive programming. Applied theoretical knowledge through hands-on projects, fostering collaboration and teamwork in dynamic, challenging environments.",
     },
     {
-      degree: "Intermediate Science",
-      institution: "Krishna Public School, CBSE Board",
-      marks: "62.2%",
+      degree: "High School",
+      institution: "JVP International School, CBSE Board",
+      marks: "85.00%",
       date: "2019",
       details:
         "Studied core subjects such as Physics, Chemistry, and Mathematics, building a solid foundation for engineering studies. Developed an interest in analytical thinking and scientific problem-solving through coursework and practical applications.",
@@ -24,11 +24,11 @@ const TimeLine = ({ darkMode, bg }) => {
 
   const experienceData = [
     {
-      role: "App Developer",
-      company: "Your company name.",
-      date: "August 2024 - Present",
+      role: "Backend Developer Intern",
+      company: "Smallfare Corp.",
+      date: "December 2024 - Feburary 2025",
       details:
-        "lorem dsljhlhlsh       hfelaihdfjajfasj;",
+        "Worked as an intern at Smallfare Corp, handling backend technologies such as Express, Node.js, and MongoDB, while simultaneously utilizing React and Tailwind CSS to design and customize the website effectively.",
       technologies: [
         "React JS",
         "React Native",
@@ -36,16 +36,19 @@ const TimeLine = ({ darkMode, bg }) => {
         "Next Js",
         "Node JS",
         "Tailwind CSS",
+        "Kafka",
+        "Postman-API",
+        "Thunder Client",
       ],
     },
 
     {
-      role: "App Developer Intern",
-      company: "your company name.",
-      date: "Jan 2024 - July 2024",
+      role: "Subject Matter Expert(CSE)",
+      company: "Cheggs Inc.",
+      date: "December 2021 - Aprill 2023",
       details:
-        "Built responsive UI components using React and integrated APIs. Collaborated with the design team to create visually appealing and user-friendly interfaces.Worked on full-stack web development using React, Node.js, and MongoDB. Collaborated with cross-functional teams to deliver high-quality software solutions.",
-      technologies: ["React", "HTML", "CSS", "React Native", "JavaScript"],
+        "Worked as a Subject Matter Expert at Chegg, resolving queries for over 500 students and achieving a 4.1-star rating in the subject of Computer Science and Engineering.",
+      technologies: ["React", "HTML", "CSS", "DBMS", "JavaScript","OOPS", "Computer Networks", "Operating System"],
     },
   ];
 

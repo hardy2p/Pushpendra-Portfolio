@@ -31,7 +31,7 @@ const AboutMe = ({ darkMode }) => {
             }`}
           >
             {" "}
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos a et animi alias fuga necessitatibus quasi non ex modi, ipsum qui harum atque molestiae? Vel inventore harum sit assumenda? Quos!
+            Aspiring Computer Science Engineer with a strong academic foundation, pursuing a BE in CSE at Chandigarh University (GPA: 8.1). I thrive on solving complex problems through innovative solutions and possess a keen interest in software development, data analysis, and competitive programming. A collaborative and detail-oriented professional eager to contribute meaningfully.
           </p>
         </div>
       </motion.div>

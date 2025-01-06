@@ -196,7 +196,7 @@ const Home = ({ darkMode }) => {
                         darkMode ? "text-yellow-400" : "text-cyan-600"
                       }`}
                     >
-                      Your name
+                      Pushpendra Singh
                     </span>
                     , I'm a Professional Software Developer.
                   </h2>
@@ -228,7 +228,7 @@ const Home = ({ darkMode }) => {
 
                   <button
                     onClick={() => {
-                      window.location.href = "https://drive.google.com";
+                      window.location.href = "https://docs.google.com/document/d/1IM6DBD5HlOBVIpTbLGWsUIe8k12R35Aq7ET9TYq1vWM/edit?tab=t.0";
                     }}
                     className={`mt-4 ${
                       darkMode
@@ -294,15 +294,7 @@ const Home = ({ darkMode }) => {
               }`}
             >
               {" "}
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et nihil
-              qui accusantium. Aliquam minus numquam repudiandae dolore,
-              debitis, nam fugit omnis corporis aspernatur excepturi eveniet
-              praesentium ipsa? Eaque, vel. Expedita. Lorem ipsum, dolor sit
-              amet consectetur adipisicing elit. Iste reprehenderit voluptatibus
-              totam maxime, cumque est magnam. Itaque iusto praesentium ipsum
-              ducimus sit assumenda, saepe consequuntur enim beatae voluptatem
-              nam dolore.
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio consequatur esse voluptatum nostrum vel, deserunt neque maxime numquam perspiciatis rerum repudiandae aliquid quasi, iusto optio similique, enim illum veritatis tenetur.
+              Aspiring Computer Science Engineer with a strong academic foundation, pursuing a BE in CSE at Chandigarh University (GPA: 8.2). I thrive on solving complex problems through innovative solutions and possess a keen interest in software development, data analysis, and competitive programming. A collaborative and detail-oriented professional eager to contribute meaningfully.
             </p>
           </div>
         </motion.div>
@@ -341,7 +333,7 @@ const Home = ({ darkMode }) => {
         }`}
       >
         <p>
-          &copy; {new Date().getFullYear()} Piyush Kumar. All Rights Reserved.
+          &copy; {new Date().getFullYear()} Pushpendra Singh. All Rights Reserved.
         </p>
       </footer>
     </ParallaxProvider>

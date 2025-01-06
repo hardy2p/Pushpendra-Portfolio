@@ -1,9 +1,10 @@
 import React from "react";
+import emailjs from "emailjs-com";
 
 const Contact = ({ darkMode, hide }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    const form = e.target;
     const data = {
       email: e.target.email.value,
       name: e.target.name.value,
@@ -12,22 +13,18 @@ const Contact = ({ darkMode, hide }) => {
     };
 
     try {
-      const response = await fetch(
-        "https://your-own-api.com/send-message",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(data),
-        }
+      // Use EmailJS to send the email
+      const response = await emailjs.send(
+        "service_acumd5n", // Replace with your actual Service ID
+        "template_45filjs", // Replace with your actual Template ID
+        data,
+        "xL1UlGAwCp941YpB3" // Replace with your actual Public Key
       );
 
-      if (response.ok) {
+      if (response.status === 200) {
         alert("Message sent successfully!");
-      } else {
-        const errorData = await response.json();
-        alert(`Failed to send message: ${errorData.error}`);
+        console.log(response.status);
+        form.reset(); // Reset the form after submission
       }
     } catch (error) {
       console.error("Error:", error);

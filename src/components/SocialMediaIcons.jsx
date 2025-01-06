@@ -46,7 +46,7 @@ const SocialMediaIcons = ({ darkMode }) => {
           }`}
         >
           <a
-            href="http://discordapp.com"
+            href="http://discordapp.com/users/hardy2p"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -56,7 +56,7 @@ const SocialMediaIcons = ({ darkMode }) => {
             />
           </a>
           <a
-            href="https://www.instagram.com"
+            href="https://www.instagram.com/_.pushpendra_._/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -66,7 +66,7 @@ const SocialMediaIcons = ({ darkMode }) => {
             />
           </a>
           <a
-            href="https://github.com/"
+            href="https://github.com/hardy2p"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -76,7 +76,7 @@ const SocialMediaIcons = ({ darkMode }) => {
             />
           </a>
           <a
-            href="https://www.linkedin.com"
+            href="https://www.linkedin.com/in/pushpendra1607"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -85,7 +85,7 @@ const SocialMediaIcons = ({ darkMode }) => {
               className="bg-[#0077B5] hover:bg-white hover:text-[#0077B5] "
             />
           </a>
-          <a href="mailto:piyush.kr.bpmce@gmail.com">
+          <a href="mailto:work.pushpendra16@gmail.com">
             <FontAwesomeIcon
               icon={faEnvelope}
               className="hover:text-orange-500 rounded-md"
