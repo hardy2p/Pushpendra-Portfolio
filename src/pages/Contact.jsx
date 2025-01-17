@@ -149,7 +149,7 @@ const Contact = ({ darkMode, hide }) => {
         </div>
 
         {/* Right Side: Image with Map */}
-        <div className="hidden lg:flex w-full lg:w-1/3 ">
+        {/* <div className="hidden lg:flex w-full lg:w-1/3 ">
           <div className="h-full bg-cover bg-center relative">
             <iframe
               width="350"
@@ -159,7 +159,7 @@ const Contact = ({ darkMode, hide }) => {
             ></iframe>
             <br />
           </div>
-        </div>
+        </div> */}
       </div>
       {hide && (
         <div

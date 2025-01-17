@@ -4,33 +4,52 @@ import "../styles/Carousel.css";
 const entries = [
   {
     id: 1,
-    label: "project 1",
+    label: "Inning Score Prediction",
     image: "/images/animep.png",
     desc: [
-      "A vibrant platform designed for anime enthusiasts.",
-      "In-depth wikis, character breakdowns, and episode guides.",
-      "Stay updated with trending news from the anime world.",
-      "Technology used: React, Tailwind CSS, Chakra ui.",
+      "A vibrant platform enabling real-time IPL first-inning score predictions.",
+      "Processed 15,000+ IPL records to train and test a Linear Regression model.",
+      "Achieved 80%+ accuracy by analyzing last 5 overs' performance.",
+      "Technology used: Flask, Pandas, NumPy, Scikit-learn.",
     ],
-    title: "Coolest anime wiki out there",
+    title: "IPL Score Predictor",
     platforms: [
       {
         type: "web",
-        url: "https://animeoasis.example.com",
+        url: "https://github.com/hardy2p/First-Innings-Score-Predictor-IPL-",
         icon: "/images/web.png",
       },
     ],
   },
   {
     id: 2,
-    label: "project 2",
+    label: "Real-Time Chat Application",
     image: "/images/mpip.png",
     title: "One way solution for your home inspection",
     desc: [
-      "A vibrant platform designed for anime enthusiasts.",
-      "In-depth wikis, character breakdowns, and episode guides.",
-      "Stay updated with trending news from the anime world.",
-      "Technology used: React, Tailwind CSS, Chakra ui.",
+      "Developed a real-time chat application using Node.js and WebSockets.",
+      "Enabled users to join multiple chat rooms and communicate instantly.",
+      "Built the front-end with HTML, CSS, and JavaScript for seamless interaction.",
+      "Implemented a Node.js backend for low-latency messaging, tested with 50+ users."
+    ],
+    platforms: [
+      {
+        type: "web",
+        url: "https://github.com/hardy2p",
+        icon: "/images/web.png",
+      },
+    ],
+  },
+  {
+    id: 3,
+    label: "HeroStat Application",
+    image: "/images/zawwarp.png",
+    title: "Test your knowledge about Marvels.",
+    desc: [
+      "Built a superhero information app using HTML, CSS, and JavaScript.",
+      "Retrieved real-time data from the Superhero API to display detailed stats for 761 superheroes.",
+      "Optimized search functionality using JavaScript for efficient querying.",
+      "Enhanced user engagement by reducing search time and improving app performance."
     ],
     platforms: [
       {
@@ -38,68 +57,7 @@ const entries = [
         url: "https://www.google.com",
         icon: "/images/web.png",
       },
-    ],
-  },
-  {
-    id: 3,
-    label: "project 3",
-    image: "/images/zawwarp.png",
-    title: "Test your knowledge about Islam and win prizes",
-    desc: [
-      "A vibrant platform designed for anime enthusiasts.",
-      "In-depth wikis, character breakdowns, and episode guides.",
-      "Stay updated with trending news from the anime world.",
-      "Technology used: React, Tailwind CSS, Chakra ui.",
-    ],
-    platforms: [
-      {
-        type: "playstore",
-        url: "https://www.google.com",
-        icon: "/images/playstore.png",
-      },
-      {
-        type: "appstore",
-        url: "https://www.google.com",
-        icon: "/images/appstore.png",
-      },
-    ],
-  },
-  {
-    id: 4,
-    label: "Project 4",
-    image: "/images/starlaunchp.png",
-    title: "Your friendly space travel companion",
-    desc: [
-      "A vibrant platform designed for anime enthusiasts.",
-      "In-depth wikis, character breakdowns, and episode guides.",
-      "Stay updated with trending news from the anime world.",
-      "Technology used: React, Tailwind CSS, Chakra ui.",
-    ],
-    platforms: [
-      {
-        type: "appstore",
-        url: "https://www.google.com",
-        icon: "/images/appstore.png",
-      },
-    ],
-  },
-  {
-    id: 5,
-    label: "project 5",
-    image: "/images/vantrailp.png",
-    title: "All your vans in one place",
-    desc: [
-      "A vibrant platform designed for anime enthusiasts.",
-      "In-depth wikis, character breakdowns, and episode guides.",
-      "Stay updated with trending news from the anime world.",
-      "Technology used: React, Tailwind CSS, Chakra ui.",
-    ],
-    platforms: [
-      {
-        type: "appstore",
-        url: "https://www.google.com",
-        icon: "/images/appstore.png",
-      },
+      
     ],
   },
 ];
